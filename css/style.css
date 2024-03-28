@@ -282,15 +282,34 @@ nav ul a:hover {
   background-color: transparent; /* Change background color to transparent */
 }
 
+.left-content .zero-row{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+
+}
+
 .first-row-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   max-width: 100%;
+  margin-top: 1rem;
   
 }
-
+.fluentcouch-12-regular-wrapper{
+  background-color: var(--color-chocolate-100);
+  color:var(--color-white);
+  padding: 0.93rem;
+  border-radius: var(--br-5xl);
+}
+.fluentcouch-12-regular-icon{
+  color: var(--color-white);
+}
 .first-row-wrapper-text {
   border-radius: var(--br-225xl);
   background-color: var(--color-gainsboro-100);
